@@ -1,0 +1,36 @@
+.header-main-conteiner-row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #000000;
+    padding-right: 247.5px;
+    padding-bottom: 1px;
+    padding-left: 247.5px;
+    width: 1935px;
+    height: 65px;
+    justify-content: center;
+}
+
+.conteiner-for-button {
+    height: 64;
+    padding-right: 32px;
+    padding-left: 32px;
+    border: 1px solid green
+}
+
+.conteiner-title{
+    gap: 32px;
+}
+
+.title-button {
+    height: 24px;
+    font-size: 16px;
+}
+
+
+
+.conteiner-cart-and-user {
+    width: 88px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+}
