@@ -1,0 +1,74 @@
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    height: 281px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 1200px;
+    justify-content: center;
+}
+
+.coloumn-footer {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding-top: 26px;
+}
+
+.footer-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #0A0A0A;
+    margin: 6px 16px 6px;
+}
+
+.footer-list {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #717182;
+    margin: 6px 16px 6px;
+}
+
+.subscribe-form {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #717182;
+    margin: 6px 16px 6px;
+}
+
+.input-subscribe-conteiner {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.input-email-to-subscribe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #F3F3F5;
+    width: 231px;
+    height: 42px;
+    margin-top: 12px;
+    margin-right: 4px;
+    padding: 10px;
+}
+
+.input-email-to-subscribe::placeholder {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: regular;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sub-button-newsletter {
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #0A0A0A;
+    width: 103.08px;
+    height: 42px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 12px 4px;
+}
