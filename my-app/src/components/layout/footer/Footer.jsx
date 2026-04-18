@@ -6,6 +6,7 @@ function Footer () {
     console.log(`search is on`)
   }
     return (
+      <div className='main-footer-row'>
         <div className='main-footer'>
           <div className='coloumn-footer'>
             <p className='footer-title'>
@@ -66,6 +67,10 @@ function Footer () {
             </form>
           </div>
         </div>
+          <div className='all-rights-reserved'>
+            <p className='rights-text-styles'>© 2026 TechStore. All Rights reserved.</p>
+          </div>
+      </div>
     )
 }
 
