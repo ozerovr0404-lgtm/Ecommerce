@@ -2,8 +2,22 @@ import './ProductCard.css';
 
 function ProductCard () {
     return (
-        <div className='main-productcard-conteiner-styles'>
-          <img src="https://images.unsplash.com/photo-1558888401-3cc1de77652d?w=400&q=80" alt="Упс!" className='image-product-card'/>
+        <div className='main-productcard-container-styles'>
+          <div className='click-like-product-card'>
+            <div className='special-offer-sticker'>Special Offer</div>
+            <button className='like-button'>
+              
+              <img src="like-icon.svg" alt="Упс!" className='like-icon'/>
+            </button>
+          </div>
+          <div className='carousel-button-container'>
+                <button className='carousel-button-left'>
+
+                </button>
+                <button className='carousel-button-right'>
+
+                </button>
+              </div>
           <div className='productcard-info'>
             <p className='product-maker'>
               LG
