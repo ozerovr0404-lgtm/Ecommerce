@@ -1,0 +1,73 @@
+.marketing-banner {
+    width: 256px;
+    height: 147px;
+    border-radius: 10px;
+    background-color: #D4183D;
+    background: linear-gradient(to right, #D4183D, #D4183DCC);
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-marking-container {
+    margin: 16px;
+    width: 224px;
+    height: 115px;
+}
+
+.styles-for-string-timer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.timer-icon-margin {
+    margin-right: 8px;
+}
+
+.special-deal {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0;
+}
+
+.close-cross-button {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 13px;
+    height: 13px;
+}
+
+.cross-close-icon {
+    margin-left: 70px;
+    margin-right: 0;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+}
+
+.marketing-text {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 300;
+    width: 190px;
+    margin: 4px 0px;
+}
+
+.styles-marketing-timer {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.marketing-timer {
+    margin: 3px 0px 0px 0px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Liberation Mono", monospace;
+    font-weight: 700;
+}
