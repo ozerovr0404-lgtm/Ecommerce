@@ -5,6 +5,7 @@ function ProductCard ({ product }) {
 
   const [imageIndex, setImageIndex] = useState(0);
   const [isLiked, setIsLiked] = useState(false);
+  const [countProduct, setCountProduct] = useState(0);
 
   const images = product.images;
   const hasMultipleImg = images.length > 1;
@@ -66,14 +67,36 @@ function ProductCard ({ product }) {
           {product.model}
         </p>
         <p className='product-price'>
-          {`$${product.price}`}
+          {`$${product.price.toLocaleString('en-US')}`}
         </p>
 
 
-        <button className='add-to-cart-current-product'>
-          Add to Cart
-        </button>
-
+        {countProduct === 0 ? (
+          <button 
+            className='add-to-cart-current-product'
+            onClick={() => setCountProduct(1)}
+          >
+            Add to Cart
+          </button>
+        ) : (
+          <div className='product-in-cart-counter-container'>
+            <button 
+              className='minus-button'
+              onClick={() => setCountProduct(prev => Math.max(0, prev - 1))}
+            >
+              <img src="minus-button.svg" alt="minus" />
+            </button>
+            <p className='text-counter-in-cart'>
+              {countProduct} in cart
+            </p>
+            <button 
+              className='plus-button'
+              onClick={() => setCountProduct(prev => prev + 1)}
+            >
+              <img src="plus-button.svg" alt="plus" />
+            </button>
+          </div>
+        )}
         
       </div>
     </div>

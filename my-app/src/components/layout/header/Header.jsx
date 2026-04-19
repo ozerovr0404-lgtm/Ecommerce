@@ -4,9 +4,9 @@ function Header () {
     return (
         <div className='header-main-conteiner-row'>
           <div className='conteiner-title'>
-              <button className='title-button'>
+              <a href='/tv' className='title-button'>
                   TechStore
-              </button>
+              </a>
               <button className='first-link-button'>
                   TV
               </button>

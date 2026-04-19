@@ -11,8 +11,8 @@ function SortProduct ({ count }) {
         </div>
         <select className='sort-select'>
           <option value="none">Sort by</option>
-          <option value="high">High to Low</option>
-          <option value="low">Low to High</option>
+          <option value="high">Price: High to Low</option>
+          <option value="low">Price: Low to High</option>
         </select>
       </div>
     )
