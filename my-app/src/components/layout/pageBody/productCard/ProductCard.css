@@ -17,8 +17,6 @@
 .image-card {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    display: block;
 }
 
 .special-offer-sticker {
